@@ -24,7 +24,6 @@ def get_color_name(R, G, B):
             cname = csv.loc[i, "color_name"]
     return cname
 
-
 # function to get x,y coordinates of mouse double click
 def draw_function(event, x, y, flags, param):
     if event == cv2.EVENT_LBUTTONDBLCLK:
