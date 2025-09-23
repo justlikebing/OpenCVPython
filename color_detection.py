@@ -5,7 +5,6 @@ import pandas as pd
 img_path = r'C:\Users\arshu\Desktop\Color-Detection-OpenCV'
 img = cv2.imread(img_path)
 
-
 # declaring global variables (are used later on)
 clicked = False
 r = g = b = x_pos = y_pos = 0
@@ -67,5 +66,6 @@ while True:
         break
 
 cv2.destroyAllWindows()
+
 
 
