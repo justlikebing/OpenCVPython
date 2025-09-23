@@ -1,7 +1,6 @@
 import cv2
 import pandas as pd
 
-
 img_path = r'C:\Users\arshu\Desktop\Color-Detection-OpenCV'
 img = cv2.imread(img_path)
 
@@ -66,6 +65,7 @@ while True:
         break
 
 cv2.destroyAllWindows()
+
 
 
 
